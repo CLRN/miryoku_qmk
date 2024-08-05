@@ -40,3 +40,7 @@
   #define COMBO_TERM 200
   #define EXTRA_SHORT_COMBOS
 #endif
+
+#define SPLIT_USB_DETECT
+// #define RGBLIGHT_SPLIT
+// #define SPLIT_LAYER_STATE_ENABLE
