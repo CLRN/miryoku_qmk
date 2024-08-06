@@ -1,6 +1,8 @@
-* connect left half and TRSS
-* do that `qmk flash -c -kb crkbd -km manna-harbour_miryoku -e MIRYOKU_ALPHAS=QWERTY`
-* then reset left
+* disconnect trrs
+* connect left, flash
+* `qmk flash -j 16 -kb crkbd -km manna-harbour_miryoku -e MIRYOKU_ALPHAS=QWERTY`
+* connect right, flash
+* connect left, connect trrs
 
 if this doesn't work, reflash with QMK Toolbox and default:
 * Detach keyboard from PC (USB cable)
