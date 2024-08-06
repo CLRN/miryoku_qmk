@@ -12,6 +12,7 @@ OLED_ENABLE = yes
 WPM_ENABLE = yes
 SPLIT_KEYBOARD = yes
 RAW_ENABLE = yes
+DYNAMIC_MACRO_ENABLE = yes
 
 INTROSPECTION_KEYMAP_C = manna-harbour_miryoku.c # keymaps
 
